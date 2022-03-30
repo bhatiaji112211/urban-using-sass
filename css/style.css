@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Scope One", serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.my-btn {
+  width: 8rem;
+  height: 3rem;
+  color: #fff;
+  font-family: "Scope One", serif;
+  border: 0;
+  border-radius: 5px;
+  background-color: #3498db;
+  font-size: 1rem;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-position: center top;
+}
+
+header .mynavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+}
+
+header .mynavbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+
+header .mynavbar a .color {
+  color: #3498db;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+header .mynavbar a .fa {
+  margin-right: 1rem;
+}
+
+header .headings {
+  text-align: center;
+  margin-top: 20rem;
+  color: #fff;
+  padding: 0 5rem;
+}
+
+header .headings h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+header .headings p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+}
+
+header .headings button {
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 3rem;
+  font-family: "Scope One", serif;
+}
+
+.two-section {
+  padding: 10rem 3rem;
+}
+
+.two-section .left {
+  width: 40%;
+}
+
+.two-section .left img {
+  width: 80%;
+  border-radius: 100%;
+  border: 5px solid #dbdbdb;
+}
+
+.two-section .right {
+  width: 60%;
+  text-align: left;
+}
+
+.two-section .right h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.two-section .right p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.full-width {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.full-width .right p {
+  color: #dbdbdb;
+}
+
+.full-width .right button {
+  width: 8rem;
+  height: 3rem;
+  color: #3498db;
+  font-family: "Scope One", serif;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.three-box {
+  text-align: center;
+  padding: 10rem 0;
+}
+
+.three-box h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.three-box p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.three-box .box {
+  width: 30%;
+  margin-top: 3rem;
+}
+
+.three-box .box img {
+  width: 80%;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.three-box .box p {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .fa {
+  font-size: 2rem;
+  margin: 3rem 1rem;
+  color: gray;
+}
+
+footer p {
+  color: gray;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .my-btn {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  header .headings {
+    margin-top: 12rem;
+  }
+  header .headings h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  header .headings p {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  header .headings button {
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .two-section .right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .two-section .right p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+  }
+  .full-width .right button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  .three-box h3 {
+    font-size: 1.5rem;
+  }
+  .three-box p {
+    font-size: 0.8rem;
+    letter-spacing: 0.09;
+    padding: 0 1rem;
+  }
+  footer .fa {
+    font-size: 1.5rem;
+    margin: 2rem 0.8rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header .mynavbar a {
+    font-size: 1rem;
+  }
+  header .headings {
+    margin-top: 10rem;
+  }
+  header .headings h1 {
+    font-size: 1.5rem;
+  }
+  header .headings p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  header .headings button {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.6rem;
+  }
+  .two-section .left {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .two-section .right {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .three-box h3 {
+    font-size: 1.2rem;
+  }
+  .three-box p {
+    font-size: 0.7rem;
+    letter-spacing: 0;
+  }
+  .three-box .box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .three-box .box img {
+    width: 60%;
+    margin-top: 2rem;
+  }
+  .three-box .box p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+  footer .fa {
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+  }
+  footer p {
+    font-size: 0.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
